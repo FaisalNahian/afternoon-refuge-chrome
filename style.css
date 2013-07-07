@@ -1,0 +1,229 @@
+#appliedat-wrapper *{
+  margin:0;
+  padding:0;
+  text-align:left;
+  border:none;
+  font-size:13px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  box-sizing:content-box;
+}
+#appliedat-wrapper {
+  margin:auto;
+  height:100%;
+  width:400px;
+  position: fixed;
+  top:1%;
+  right: 1%;
+  display:none;
+  text-align:left;
+  line-height:normal;
+  z-index:99999999;
+}
+
+#appliedat-wrapper  .header {
+  background:#eff4f6;
+  border-bottom:1px solid #C3D4DB;
+  border-left:1px solid #C3D4DB;
+  border-right:1px solid #C3D4DB;
+  border-top:1px solid #C3D4DB;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  /*box-shadow:rgba(0,0,0,0.15) 0 0 3px;*/
+  color:#333;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size:20px;
+  margin:auto;
+  padding:5px 0;
+  text-align:center;
+  width:100%;
+
+}
+
+#appliedat-wrapper  .header span {
+  font-size: 18px;font-weight: bolder;right: 10px;position: absolute;
+}
+#appliedat-wrapper  .header span:hover {
+  text-shadow: 0px 0px 3px #808080;
+  cursor:pointer;
+}
+#appliedat-wrapper .main {
+  background:#fefefe;
+  border-left:1px solid #C3D4DB;
+  border-right:1px solid #C3D4DB;
+  margin:auto;
+  width:100%;
+  font-size:12px;
+}
+#appliedat-wrapper .main .content,#appliedat-wrapper .main .login{
+  width:95%;
+  margin:auto;
+  padding-top:5px;
+}
+#appliedat-wrapper .main .row {
+  display:block;
+  margin-bottom: 8px;
+  padding-right: 5px;
+}
+#appliedat-wrapper .main .row span{
+  color:#666362;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+}
+
+
+#appliedat-wrapper .main .row input[type=text],#appliedat-wrapper .main .row input[type=password]{
+  border:3px solid #F7F9FA;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  margin:3px 0 4px;
+  padding:8px 6px;
+  width:360px;
+  height:12px;
+  display:block;
+}
+#appliedat-wrapper .main .row input[type=text]:focus,#appliedat-wrapper .main .row input[type=password]:focus{
+  border:3px solid #f0f7fc;
+  -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  color:#333;
+}
+
+#appliedat-wrapper .main .line {
+  height:250px;
+  width:0px;
+  margin-top:20px;
+}
+
+#appliedat-wrapper .main .right .row select {
+  border-radius:3px;
+  font-size:20px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+  height:50px;
+  width:200px;
+  border: 1px solid #696565;
+}
+
+#appliedat-wrapper .main .right .row span{
+  color:#666362;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+}
+#appliedat-wrapper .main .right .row {
+  display:block;
+}
+
+#appliedat-wrapper .main .row textarea {
+  height:220px;
+  border:3px solid #F7F9FA;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+  margin:3px 0 4px;
+  padding:8px 6px;
+  width:360px;
+  display:block;
+}
+
+#appliedat-wrapper .main .row textarea:focus{
+  border:3px solid #f0f7fc;
+  -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+  color:#333;
+}
+
+#appliedat-wrapper .appliedat_button{
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:15px;
+  background:#a1d8f0;
+  background:-moz-linear-gradient(top, #badff3, #7acbed);
+  background:-webkit-gradient(linear, left top, left bottom, from(#badff3), to(#7acbed));
+  border:1px solid #7db0cc !important;
+  cursor: pointer;
+  /*padding:11px 16px;*/
+  font:bold 13px/14px Arial, Helvetica, sans-serif;
+  text-shadow:rgba(0,0,0,0.2) 0 1px 0px;
+  color:#fff;
+  -moz-box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+  -webkit-box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+  box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+  margin-left:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding:7px 21px;
+  display:inline-block;
+  text-decoration: none;
+}
+/* button style */
+#appliedat-wrapper .appliedat_button:hover,
+#appliedat-wrapper .appliedat_button:focus,
+#appliedat-wrapper .appliedat_button:active{
+  background:#a1d8f0;
+  background:-moz-linear-gradient(top, #7acbed, #badff3);
+  background:-webkit-gradient(linear, left top, left bottom, from(#7acbed), to(#badff3));
+}
+#appliedat-wrapper .appliedat_button:active{
+  text-shadow:rgba(0,0,0,0.3) 0 -1px 0px;
+}
+
+#appliedat-wrapper .reminder {
+  margin-top: 15px;
+}
+/* TO DO: Add reminder calender input */
+
+/* styles for the footer in the popup */
+#appliedat-wrapper .footer {
+  /*font-family:Myriad Pro;*/
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 16px;
+  margin:auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  position:relative;
+  text-align:center;
+  width:100%;
+  background-color: #eff4f6;
+  border-top:1px solid #C3D4DB;
+  position:relative;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-left:1px solid #C3D4DB;
+  border-right:1px solid #C3D4DB;
+  border-bottom:1px solid #C3D4DB;
+}
+
+#appliedat-wrapper .footer ul {
+  margin: 0;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#appliedat-wrapper .footer li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#appliedat-wrapper .footer a,
+#appliedat-wrapper .footer a:visited,
+#appliedat-wrapper .footer a:active {
+  color: #444;
+  padding: 3px;
+  text-decoration: none;
+}
+
+#appliedat-wrapper .footer a:hover {
+  color: #000;
+}
