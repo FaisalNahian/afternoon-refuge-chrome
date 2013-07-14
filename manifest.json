@@ -1,28 +1,28 @@
 {
-  "name" : "Applied.at",
-  "description" : "A job listing organizer. Save job listing with one click to Appliedat.com online service.",
-  "icons" : {
-    "128" : "icons/icon128.png",
-    "16" : "icons/icon16.png",
-    "32" : "icons/icon32.png",
-    "48" : "icons/icon48.png"
-  },
-  "browser_action" : {
-    "default_icon" : "icons/icon19.png",
-    "default_title" : "Applied.at"
-  },
-  "background" : {
-    "page" : "background.html"
-  },
-  "content_scripts" : [{
-      "matches" : ["http://*/*", "https://*/*"],
-      "css":["style.css"],
-      "js" : ["content.js"],
-      "all_frames": false
-    }
-  ],
-  "options_page" : "options.html",
-  "manifest_version" : 2,
-  "permissions" : ["contextMenus", "clipboardWrite", "unlimited_storage", "tabs", "http://*/*", "https://*/*", "cookies"],
-  "version" : "1.0.2"
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/icon19.png",
+      "default_title": "Applied.at"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "style.css" ],
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "A job listing organizer. Save job listing with one click to Appliedat.com online service.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Applied.at",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "clipboardWrite", "unlimited_storage", "tabs", "http://*/*", "https://*/*", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
 }

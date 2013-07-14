@@ -29,23 +29,26 @@
   border-top-left-radius:5px;
   border-top-right-radius:5px;
   /*box-shadow:rgba(0,0,0,0.15) 0 0 3px;*/
-  color:#333;
+  color:#0099CC;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  font-size:20px;
+  font-size:17px;
   margin:auto;
   padding:5px 0;
   text-align:center;
   width:100%;
-
 }
 
 #appliedat-wrapper  .header span {
-  font-size: 18px;font-weight: bolder;right: 10px;position: absolute;
+  font-size: 17px;font-weight: bolder;right: 10px;position: absolute;
 }
 #appliedat-wrapper  .header span:hover {
   text-shadow: 0px 0px 3px #808080;
   cursor:pointer;
 }
+/*
+#appliedat-wrapper .logo span {
+  background-image: url('icons/icon19.png') no-repeat; width: 19px; height: 19px; display: inline-block; left:10px; position:absolute;
+}*/
 #appliedat-wrapper .main {
   background:#fefefe;
   border-left:1px solid #C3D4DB;
@@ -68,11 +71,12 @@
   color:#666362;
   font-family: Arial, Helvetica, sans-serif;
   font-weight:bold;
+  font-size: 12px;
 }
 
 
 #appliedat-wrapper .main .row input[type=text],#appliedat-wrapper .main .row input[type=password]{
-  border:3px solid #F7F9FA;
+  border:2px solid #F7F9FA;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
@@ -94,7 +98,7 @@
 }
 
 #appliedat-wrapper .main .line {
-  height:250px;
+  height:220px;
   width:0px;
   margin-top:20px;
 }
@@ -120,7 +124,7 @@
 }
 
 #appliedat-wrapper .main .row textarea {
-  height:220px;
+  height:200px;
   border:3px solid #F7F9FA;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
@@ -159,8 +163,8 @@
   -webkit-box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
   box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
   margin-left:5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top:5px;
+  margin-bottom:5px;
   padding:7px 21px;
   display:inline-block;
   text-decoration: none;
